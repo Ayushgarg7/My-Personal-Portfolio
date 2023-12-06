@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="Website Icon"
+      href="image/iskontemple (2).jpeg"
+      style="border-radius: 30px"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pangolin&family=Pathway+Extreme:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0c7fc75b05.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <h1 id="logo">
+        <img src="image/iskontemple (1).jpeg" alt="logo" srcset="" />
+      </h1>
+      <!-- <i class="icon" id="hamburger" class="fas fa-bars"></i> -->
+      <div class="navlinks">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="icon">
+        <i id="hamburger" class="fas fa-bars"></i>
+      </div>
+
+      <!-- <i id="closeBtn" class="fas fa-times"></i> -->
+    </nav>
+
+    <div id="header">
+      <div class="container">
+        <div class="intro">
+          <div class="header-text">
+            <h1>Hi, I'm Ayush</h1>
+            <p>A Web <br /></p>
+          </div>
+
+          <div>
+            <img src="image/web.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------about----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/clg.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a skilled web developer with expertise in UI/UX design.
+              Despite being a fresher, I have successfully designed and
+              developed a range of websites. My leadership abilities enable
+              effective teamwork and project management. I excel at creating
+              visually appealing and intuitive interfaces, ensuring outstanding
+              user experiences. Constantly seeking growth, I stay up-to-date
+              with the latest trends and technologies in the industry. With my
+              dedication to quality and a passion for innovation, I contribute
+              value to every project I undertake. I am committed to delivering
+              exceptional websites that exceed client expectations.
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web interfaces</li>
+                <li>
+                  <span>Web Development</span><br />
+                  Web Development
+                </li>
+              </ul>
+            </div>
+            <!-- --------------------------- -->
+
+            <!-- ---------------------------- -->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020-2024</span><br />B.Tech</li>
+                <li><span>2022-present</span><br />Web Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------services--------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              As a web designer, I provide top-notch web development services. I
+              specialize in creating visually appealing and user-friendly
+              websites that meet client requirements and leave a lasting impact.
+              My goal is to deliver high-quality web solutions tailored to each
+              client's unique needs.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UX/UI Design</h2>
+            <p>
+              I specialize in UI/UX design, creating visually captivating and
+              user-friendly interfaces. My expertise ensures seamless and
+              enjoyable user experiences, making websites intuitive and engaging
+              for maximum satisfaction.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-c"></i>
+            <h2>C / C++ programming</h2>
+            <p>
+              I am a skilled C/C++ developer with a strong grasp of programming
+              concepts. Your expertise allows you to create efficient and robust
+              software solutions, solving complex problems with precision and
+              elegance.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------portfolio------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/Screenshot (15).png" />
+            <div class="layer">
+              <h3>ATM working web</h3>
+              <a href="https://ayushgarg7.github.io/ATM/" class="btn">ATM</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/Screenshot (13).png" />
+            <div class="layer">
+              <h3>Hotstar Clone</h3>
+              <a href="https://hotstarclone-7.netlify.app/" class="btn"
+                >Disney+Hotstar</a
+              >
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="image/portss.png  " />
+            <div class="layer">
+              <h3>My Portfolio web</h3>
+              <a href="https://its-7.netlify.app/" class="btn">My Portfolio</a>
+              <!-- <p>The web connects you the people around the world. Download it from play store</p> -->
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="image/Screenshot (11).png" />
+            <div class="layer">
+              <h3>Tower of Hanoi Game</h3>
+              <a href="https://ayushgarg7.github.io/Tower-of-hanoi-7/" class="btn">Tower-of-hanoi</a>
+              <!-- <p>The web connects you the people around the world. Download it from play store</p> -->
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="image/Screenshot (10).png" />
+            <div class="layer">
+              <h3>Binary Search Tree </h3>
+              <a href="https://bst-7.netlify.app/" class="btn">BST</a>
+              <!-- <p>The web connects you the people around the world. Download it from play store</p> -->
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="image/Screenshot (1).png" />
+            <div class="layer">
+              <a href="https://visualizer-7.netlify.app/" class="btn"
+                ><h3>Sorting - visualizer</h3></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- <a href="https://sortingby-7.netlify.app/" class="btn" >See more</a>        -->
+      </div>
+    </div>
+    <!-- =-----------contect--------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+
+            <p><i class="fas fa-envelope"></i>ayushgarg1827@gmail.com</p>
+            <p id="ph"><i class="fas fa-phone"></i> (+91)  7017730469</p>
+
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/profile.php?id=100041350914072"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/ayushgarg_7/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://github.com/Ayushgarg7" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ayush-garg-258784221/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="mailto:ayushgarg1827@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+
+            <a 
+              href="https://drive.google.com/file/d/1usi4bq31C_tk8M6FUzx9Tdv3pV4D4Dn_/view?usp=sharing"
+              target="_blank"
+              id="see_resume"
+              >Get Resume</a
+            >
+          </div>
+          <!-- <div class="contact-right">
+            <form action="https://formspree.io/f/your-formspree-email"
+            method="POST">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <q>Copyright reserved to Ayush Kumar Garg</q>
+    </div>
+    <!-- <script>
+      function sendEmail() {
+        var name = document.getElementsByName("Name")[0].value;
+        var email = document.getElementsByName("email")[0].value;
+        var message = document.getElementsByName("Message")[0].value;
+    
+        // You can customize the email address and subject
+        var mailtoLink = "mailto:ayushgarg1827@gmail.com?subject=Contact from " + name + "&body=" + message;
+    
+        window.location.href = mailtoLink;
+      }
+    </script> -->
+  </body>
+</html>
